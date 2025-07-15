@@ -225,7 +225,6 @@ export function ThinkingChat({ onMessagesChange, hasFirecrawlKey = false, onApiK
               }
             } catch (e) {
               // Error parsing SSE data
-              console.error('Error parsing SSE data', e)
             }
           }
         }
