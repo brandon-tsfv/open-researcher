@@ -66,6 +66,7 @@ Only return the JSON array, nothing else.`
 
   } catch (error) {
     // Error generating follow-up questions
+    console.error(error)
     return NextResponse.json(
       { error: 'Failed to generate follow-up questions' },
       { status: 500 }
