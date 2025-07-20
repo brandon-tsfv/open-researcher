@@ -222,7 +222,7 @@ export function ThinkingChat({ onMessagesChange, hasFirecrawlKey = false, onApiK
                     : msg
                 ))
               }
-            } catch (e) {
+            } catch {
               // Error parsing SSE data
             }
           }
