@@ -76,8 +76,12 @@ export function ScreenshotPreview({ url, screenshot, isLoading = false, classNam
                 "object-cover transition-opacity duration-500",
                 imageLoaded ? "opacity-100" : "opacity-0"
               )}
-              onLoad={() => {}}
-              onError={() => { /* Failed to load screenshot */ }}
+              onLoad={() => {
+                // Image loaded successfully
+              }}
+              onError={() => {
+                // Failed to load screenshot
+              }}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           )}
