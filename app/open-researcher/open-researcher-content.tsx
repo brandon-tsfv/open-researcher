@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Github, ExternalLink, Loader2 } from 'lucide-react'
+import { ExternalLink, Loader2 } from 'lucide-react'
 import { ThinkingChat } from '@/components/thinking-chat'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
