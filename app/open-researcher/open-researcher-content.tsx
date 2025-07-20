@@ -91,31 +91,17 @@ export default function OpenResearcherContent() {
       <header className="py-4">
         <div className={`px-4 sm:px-6 lg:px-8 transition-all duration-700 ease-in-out ${hasMessages ? 'max-w-[1400px]' : 'max-w-4xl'
           } mx-auto`}>
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-start">
             <Link href="https://firecrawl.dev" target="_blank" rel="noopener noreferrer">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/firecrawl-logo-with-fire.png"
-                alt="Firecrawl Logo"
-                width={113}
-                height={24}
-                className="w-[113px] h-auto"
+                src="/two-small-fish-logo-black-rgb.svg"
+                alt="Two Small Fish Logo"
+                width={226}
+                height={48}
+                className="w-[226px] h-auto"
               />
             </Link>
-            <Button
-              variant="code"
-              asChild
-            >
-              <Link
-                href="https://github.com/mendableai/open-researcher"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2"
-              >
-                <Github className="h-4 w-4" />
-                Use this template
-              </Link>
-            </Button>
           </div>
         </div>
       </header>
@@ -128,12 +114,9 @@ export default function OpenResearcherContent() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-[2.5rem] lg:text-[3.8rem] text-[#36322F] dark:text-white font-semibold tracking-tight leading-[1.1] opacity-0 animate-fade-up [animation-duration:500ms] [animation-delay:200ms] [animation-fill-mode:forwards]">
             <span className="relative px-1 text-transparent bg-clip-text bg-gradient-to-tr from-red-600 to-yellow-500 inline-flex justify-center items-center">
-              Open Researcher
+              Betta Fish
             </span>
           </h1>
-          <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400 opacity-0 animate-fade-up [animation-duration:500ms] [animation-delay:600ms] [animation-fill-mode:forwards]">
-            Firecrawl-powered search, scrape, and agentic reasoning
-          </p>
         </div>
       </div>
 
@@ -148,22 +131,7 @@ export default function OpenResearcherContent() {
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="px-4 sm:px-6 lg:px-8 py-8 mt-auto">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            Powered by{' '}
-            <Link
-              href="https://firecrawl.dev"
-              className="text-orange-600 hover:text-orange-700 dark:text-orange-400 dark:hover:text-orange-300 font-medium"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Firecrawl
-            </Link>
-          </p>
-        </div>
-      </footer>
+
 
       {/* API Key Modal */}
       <Dialog open={showApiKeyModal} onOpenChange={setShowApiKeyModal}>

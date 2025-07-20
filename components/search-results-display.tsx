@@ -309,10 +309,10 @@ export function SearchResultsDisplay({
             {(query || results.length > 0) && (
               <div className="border-b border-gray-200 dark:border-gray-700 px-3 lg:px-6 py-2 lg:py-3 bg-white dark:bg-gray-900">
                 <div className="flex items-center gap-3 lg:gap-8">
-                  {/* Firecrawl logo */}
+                  {/* Two Small Fish logo */}
                   <img 
-                    src="/firecrawl-logo-with-fire.png" 
-                    alt="Firecrawl" 
+                    src="/two-small-fish-logo-black-rgb.svg" 
+                    alt="Two Small Fish" 
                     className="h-6 lg:h-8 w-auto flex-shrink-0"
                   />
                   

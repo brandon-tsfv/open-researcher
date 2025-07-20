@@ -22,9 +22,8 @@ interface Message {
 }
 
 const SUGGESTED_QUERIES = [
+  "Find the latest blog post on https://allensthoughts.com/, then based on the blog post, format it into a prompt i could use to query https://websets.exa.ai/ to find early stage companies innovating in this space",
   "What are the latest AI breakthroughs in 2025 and how do they compare to previous years?",
-  "Find me the 2nd sentence of the 3rd and 5th blog post on firecrawl.dev and analyze their content",
-  "Compare the latest features and pricing between Samsung Galaxy S24 Ultra and iPhone 15 Pro Max, including camera specs and AI capabilities"
 ]
 
 interface ThinkingChatProps {
