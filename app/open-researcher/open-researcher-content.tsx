@@ -97,9 +97,9 @@ export default function OpenResearcherContent() {
               <img
                 src="/two-small-fish-logo-black-rgb.svg"
                 alt="Two Small Fish Logo"
-                width={226}
-                height={48}
-                className="w-[226px] h-auto"
+                width={113}
+                height={24}
+                className="w-[113px] h-auto"
               />
             </Link>
           </div>
