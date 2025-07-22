@@ -23,6 +23,7 @@ interface Message {
 
 const SUGGESTED_QUERIES = [
   "Find the latest blog post on https://allensthoughts.com/, then based on the blog post, format it into a prompt i could use to query https://websets.exa.ai/ to find early stage companies innovating in this space",
+  "Find the latest blog post on https://allensthoughts.com/, then based on the blog post, format it into a prompt i could use to query https://websets.exa.ai/ to find conferences with topics in this space",
   "What are the latest AI breakthroughs in 2025 and how do they compare to previous years?",
 ]
 
